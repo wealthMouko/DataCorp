@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-image: url(D.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: cursive;
+}
+
+
+.k {
+    border: none;
+    padding: 150px;
+    font-family: cursive;
+    
+}

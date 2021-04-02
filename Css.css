@@ -1,0 +1,91 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-image: url(3.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.BEN{
+    
+    background-color: #6a6b6b00;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    padding: 1rem;
+    text-align:right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 1px;
+    border-radius: 1rem;
+    text-decoration-style: double;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    background-color: #ff6a19;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem;
+    text-decoration-style: double;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:active {color: red;}
+.button a:hover { color: blue; text-decoration:none;
+    font-weight: bold;}
+.header {
+    text-decoration: none;
+}
+.block {
+    text-decoration: none;
+    border: none;
+    padding: 1rem;
+    display: flow-root;
+}
+.header {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color:transparent;
+    position: fixed;
+    top: 0px;
+    
+}
+.header .Logo {
+    color: cornsilk;
+    font-family: cursive;
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.header .Menu {
+    float: right;
+    margin-right: 30px;
+}
+.header .Menu a{
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+.header .Menu a:hover {
+    color: #3498db;
+    
+}
+.Banner-image {
+    width: auto;
+}
+
+.Banner-content {
+    width: auto;
+}
