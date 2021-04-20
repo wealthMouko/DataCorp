@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body >
+    <div class="form">
+            <h3 class="titro">Renseignez ce formulaire</h3>
+<form id="data" action="https://formspree.io/f/xgervlgg" method="POST" >
+<p><b>Nom(s): </b></p>
+<input type="text" name="nom" id="nom" placeholder="ex: Mouko" required>
+<p><br><b>Prénom(s):</b></br></p>
+<input type="text" name="prenom" id="prenom" placeholder="ex: Adan Wealth" required>
+<p><br><b><label for="Ecole">Classe :</label></b>
+<select name="ecole" id="Ecole"></p>
+    <option value="cpge">MPSI A</option>
+    <option value="esa">MPSI B</option>
+    <option value="escae">MPSI C</option>
+    <option value="esi">MPSI*</option>
+</select>
+<p><br><b><label for="Site">Choix de section :</label></b>
+<select name="site" id="Site INP">
+    <option value="centre">Designer</option>
+    <option value="sud">Programmer</option>
+    <option value="sud">Webmaster</option>
+</select>
+<p><br><b> N° de Chambre:</b></br></p>
+<input type="text" name="chambre" id="chambre" placeholder="Résidence-Chambre" required>
+<p><br><b>Téléphone :</b></br></p>
+<input type="number" name="phone" id="phone" placeholder="+225XXXXXXXX" required>
+<p><br><b>Courriel</b></br></p>
+<input type="email" name="mail" id="email" placeholder="mkomena@gmail.com">
+<br><br><br><input type="submit" value="Envoyer">
+</center><div id="status" ></div></center>
+</form>
+    </div>
+<script scr="main.js"></script>
+</body>
+</html>
