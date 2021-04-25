@@ -89,3 +89,13 @@ a:active {color: red;}
 .Banner-content {
     width: auto;
 }
+
+.titleS{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtitleS{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
