@@ -91,13 +91,15 @@ a:active {color: red;}
 }
 
 .titleS{
+    color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .subtitleS{
+    color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .iji{
-    color: rgb(98, 241, 198);
+    color: rgb(0, 0, 0);
 }
